@@ -1,0 +1,3031 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+/* Puplic */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.selected {
+  border-radius: 8px !important;
+  background: var(--White-95, #f1f1f3) !important;
+  padding: 14px 24px !important;
+}
+.selected-bold {
+  color: var(--Grey-15, #262626) !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+}
+/* Private*/
+body {
+  background: var(--White-97, #f7f7f8);
+ display: flex;
+ flex-direction: column;
+ row-gap: 100px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+}
+.container {
+  margin: auto;
+}
+.row {
+  display: flex;
+}
+header {
+  border-bottom: 1px solid var(--White-95, #f1f1f3);
+  padding: 20px 132px 24px 132px;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+}
+header .start {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 50px;
+}
+header .start .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Orange-50, #ff9500);
+  border-radius: 8px;
+  padding: 7px;
+  width: 40px;
+  height: 40px;
+}
+header .start nav ul {
+  column-gap: 26px;
+}
+header a {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+header .end {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 30px;
+}
+header .end a:last-of-type {
+  color: var(--Absolute-White, #fff);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  border-radius: 8px;
+  background: var(--Orange-50, #ff9500);
+  padding: 14px 34px;
+}
+header .end svg {
+  display: none;
+  width: 34px;
+  height: 34px;
+}
+main .hero {
+  margin: auto;
+}
+.hero .column {
+  display: flex;
+  flex-direction: column;
+}
+.hero .column .top {
+  display: flex;
+  flex-direction: column;
+}
+.hero .center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.hero .row {
+  align-items: center;
+  width: fit-content;
+}
+.hero .top .row {
+  background: var(--White-99, #fcfcfd);
+  column-gap: 10px;
+}
+.hero .top .bolt-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Orange-95, #fff4e5);
+  box-sizing: content-box;
+}
+.hero .top h2 {
+  color: var(--Grey-10, #1a1a1a);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.hero .top h2 span {
+  color: var(--Orange-50, #ff9500);
+}
+.hero .top h3 {
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 57px */
+}
+.hero .top p {
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+.hero .bottom a:first-of-type {
+  color: var(--Absolute-White, #fff);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 27px */
+  background: var(--Orange-50, #ff9500);
+}
+.hero .bottom a:last-of-type {
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  background: var(--Absolute-White, #fff);
+}
+main .companies .container {
+  border: 1px solid var(--White-95, #f1f1f3);
+  background: var(--White-99, #fcfcfd);
+}
+main .video .container {
+  margin: auto;
+  position: relative;
+  display: flex;
+}
+.video .container img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1060/706;
+  filter: brightness(80%);
+}
+.video .container .video-button {
+  position: absolute;
+  top: 50%; /* Position the SVG in the center vertically */
+  left: 50%; /* Position the SVG in the center horizontally */
+  transform: translate(-50%, -50%);
+}
+main .benefits .top {
+  display: flex;
+}
+main .benefits .top h2 {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 72px */
+}
+main .benefits .top p {
+  color: var(--Grey-35, #59595a);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+main .benefits .top .end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+main .benefits .top a {
+  display: inline-block;
+  white-space: nowrap;
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  background: var(--White-99, #fcfcfd);
+}
+.benefits .bottom .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.benefits .bottom .card .top {
+  display: flex;
+  flex-direction: column;
+}
+.benefits .bottom .heading-number {
+  display: flex;
+  justify-content: flex-end;
+}
+.benefits .bottom .heading-number span {
+  color: var(--Grey-15, #262626);
+  text-align: right;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 30% */
+}
+.benefits .bottom .card-description h3 {
+  color: var(--Grey-20, #333);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.144px;
+}
+.benefits .bottom .card-description p {
+  color: var(--Grey-30, #4c4c4d);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+.benefits .bottom .card .bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+main .our-courses .top {
+  display: flex;
+}
+main .our-courses .top h2 {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 72px */
+}
+main .our-courses .top p {
+  color: var(--Grey-35, #59595a);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+main .our-courses .top .end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+main .our-courses .top a {
+  display: inline-block;
+  white-space: nowrap;
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  background: var(--White-99, #fcfcfd);
+}
+.our-courses .bottom .card .top {
+  display: flex;
+  flex-direction: column;
+}
+.our-courses .bottom .card img {
+  max-width: 100%;
+  height: auto;
+}
+.our-courses .bottom .card .top .course-info {
+  display: flex;
+  justify-content: space-between;
+}
+.our-courses .bottom .card .top .course-info .start {
+  color: var(--Grey-30, #4c4c4d);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.our-courses .bottom .card .top .course-info .end {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.our-courses .bottom .card .top .course-description h3 {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+.our-courses .bottom .card .top .course-description p {
+  color: var(--Grey-30, #4c4c4d);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+.our-courses .bottom .card .bottom {
+  display: flex;
+  justify-content: center;
+}
+.our-courses .bottom .card .bottom a {
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+}
+main .our-testimonials .top {
+  display: flex;
+}
+main .our-testimonials .top h2 {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 72px */
+}
+main .our-testimonials .top p {
+  color: var(--Grey-35, #59595a);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+main .our-testimonials .top .end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+main .our-testimonials .top a {
+  display: inline-block;
+  white-space: nowrap;
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  background: var(--White-99, #fcfcfd);
+}
+
+.our-testimonials .bottom .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--Absolute-White, #fff);
+}
+.our-testimonials .bottom .card .top {
+  background: var(--Absolute-White, #fff);
+}
+.our-testimonials .bottom .card .bottom {
+  background: var(--White-99, #fcfcfd);
+}
+.our-testimonials .card .top p {
+  color: var(--Grey-30, #4c4c4d);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+.our-testimonials .card .bottom {
+  display: flex;
+}
+.our-testimonials .card .bottom .start,
+.end {
+  display: flex;
+  align-items: center;
+}
+.our-testimonials .card .bottom .start span {
+  color: var(--Grey-20, #333);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 27px */
+}
+.our-testimonials .card .bottom .end a {
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+}
+main .our-pricing .top {
+  display: flex;
+}
+main .our-pricing .top h2 {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 72px */
+}
+main .our-pricing .top p {
+  color: var(--Grey-35, #59595a);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+main .our-pricing .top .end {
+  display: flex;
+  align-items: flex-end;
+}
+main .our-pricing .top .end .text {
+  background: var(--Absolute-White, #fff);
+  display: inline-flex;
+}
+main .our-pricing .top .end .start,
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .our-pricing .top .end .start {
+  background: var(--Orange-50, #ff9500);
+}
+main .our-pricing .top .end .start a {
+  color: var(--Absolute-White, #fff);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  line-height: 150%; /* 27px */
+}
+main .our-pricing .top .end .end a {
+  color: var(--Grey-30, #4c4c4d);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  text-align: center;
+}
+.our-pricing .bottom {
+  display: flex;
+  justify-content: center;
+}
+.our-pricing .bottom .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.our-pricing .bottom .row .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.our-pricing .bottom .row .card .top {
+  display: flex;
+  flex-direction: column;
+}
+.our-pricing .bottom .row .card .top h3 {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 169%; /* 37.18px */
+  text-align: center;
+}
+.our-pricing .bottom .row .card .top .price {
+  display: flex;
+  justify-content: center;
+}
+.our-pricing .bottom .row .card .top .price span:first-of-type {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 73%; /* 58.4px */
+}
+.our-pricing .bottom .row .card .top .price span:last-of-type {
+  color: var(--Grey-30, #4c4c4d);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 73%; /* 14.6px */
+}
+.our-pricing .bottom .row .card .top .available-features {
+  display: flex;
+  flex-direction: column;
+}
+.our-pricing .bottom .row .card .top .available-features h4 {
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+}
+.our-pricing .bottom .row .card .top .available-features .bottom {
+  display: flex;
+  flex-direction: column;
+}
+.our-pricing .bottom .row .card .top .available-features .bottom .feature {
+  display: flex;
+  align-items: center;
+}
+.our-pricing .bottom .row .card .top .available-features .bottom .feature span {
+  color: var(--Grey-30, #4c4c4d);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+.our-pricing .bottom .row .card .footer {
+  display: flex;
+  justify-content: center;
+}
+.our-pricing .bottom .row .card .footer a {
+  color: var(--Absolute-White, #fff);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 27px */
+}
+footer .top .row {
+  display: flex;
+}
+footer .top .row .start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .top .row .start .top svg {
+  background: var(--Orange-50, #ff9500);
+}
+footer .top .row .start .bottom {
+  display: flex;
+  flex-direction: column;
+}
+footer .top .row .start .bottom .info {
+  display: flex;
+  justify-content: flex-start;
+}
+footer .top .row .start .bottom .info span {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  text-align: left;
+}
+footer .top .row .end {
+  display: flex;
+  align-items: flex-start;
+}
+footer .top .row .end nav ul {
+  display: flex;
+  flex-direction: column;
+}
+footer .top .row .end nav ul a {
+  color: var(--Grey-35, #59595a);
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+footer .top .row .end .social-profiles {
+  display: flex;
+  flex-direction: column;
+}
+footer .top .row .end .social-profiles span {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+}
+footer .top .row .end .social-profiles .bottom {
+  display: flex;
+  justify-content: flex-start;
+}
+footer .bottom {
+  display: flex;
+  justify-content: center;
+}
+footer .bottom span {
+  color: var(--Grey-40, #656567);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+/*===========================================================================================*/
+/* Desktop */
+@media screen and (min-width: 1441px) {
+
+  /* Header */
+  header {
+    padding: 20px 132px 24px 132px;
+    margin: 0px 30px;
+  }
+  header .end a:last-of-type {
+    padding: 14px 34px;
+  }
+  /* Hero section */
+  main .hero {
+    width: 965px;
+    position: relative;
+  }
+  .hero .column {
+    row-gap: 60px;
+    justify-content: center;
+  }
+  .hero .column .top {
+    row-gap: 20px;
+  }
+  .hero .top .row {
+    padding: 14px 30px 14px 20px;
+    border-radius: 11px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    position: relative;
+    column-gap: 10px;
+  }
+  .hero .top .bolt-icon {
+    padding: 14px;
+    border-radius: 6px;
+  }
+  .hero .top .bolt-icon {
+    width: 34px;
+    height: 34px;
+  }
+  .hero .top h2 {
+    font-size: 48px;
+  }
+  .hero .indicator {
+    position: absolute;
+    left: -24px;
+    top: -30px;
+  }
+  .hero .indicator svg {
+    width: 39px;
+    height: 43px;
+  }
+  .hero .top h3 {
+    font-size: 38px;
+  }
+  .hero .top p {
+    font-size: 18px;
+  }
+  .hero .bottom .row {
+    column-gap: 12px;
+  }
+  .hero .bottom a:first-of-type {
+    padding: 18px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  .hero .bottom a:last-of-type {
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    font-size: 18px;
+  }
+
+  .companies .container {
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+    margin: auto;
+    width: calc(100% - 324px);
+  }
+  /* Companies section */
+
+  main .companies svg {
+    padding: 30px 40px;
+    height: 34px;
+  }
+
+  main .companies svg:nth-child(1) {
+    width: 68px;
+  }
+  main .companies svg:nth-child(2) {
+    width: 99.167px;
+    flex-grow: 1;
+  }
+  main .companies svg:nth-child(3) {
+    width: 69.417px;
+    flex-grow: 1;
+  }
+  main .companies svg:nth-child(4) {
+    width: 77.917px;
+    flex-grow: 1;
+  }
+  main .companies svg:nth-child(5) {
+    width: 94.208px;
+    flex-grow: 1;
+  }
+  main .companies svg:nth-child(6) {
+    width: 91.375px;
+    flex-grow: 1;
+  }
+  main .companies svg:nth-child(7) {
+    width: 78.625px;
+    flex-grow: 1;
+  }
+  main .video .container {
+    width: calc(100% - 324px);
+  }
+  .video .container img {
+    border-radius: 12px;
+  }
+  .video .container .video-button {
+    position: absolute;
+    top: 50%; /* Position the SVG in the center vertically */
+    left: 50%; /* Position the SVG in the center horizontally */
+    transform: translate(-50%, -50%);
+  }
+  .video .container svg {
+    width: 44px;
+    height: 44px;
+    padding: 14px;
+    border-radius: 68px;
+    border: 6px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  main .benefits .container {
+    width: calc(100% - 324px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+  }
+  main .benefits .top {
+    column-gap: 300px;
+  }
+  main .benefits .top h2 {
+    font-size: 48px;
+  }
+  main .benefits .top p {
+    font-size: 18px;
+  }
+  main .benefits .top a {
+    font-size: 18px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .benefits .bottom .row {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .benefits .bottom .card {
+    padding: 50px;
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    row-gap: 50px;
+    width: calc((100% - 60px) / 3);
+  }
+  .benefits .bottom .card .top {
+    row-gap: 50px;
+  }
+  .benefits .bottom .heading-number {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .benefits .bottom .heading-number span {
+    font-size: 80px;
+  }
+  .benefits .bottom .card-description h3 {
+    font-size: 24px;
+  }
+  .benefits .bottom .card-description p {
+    font-size: 18px;
+  }
+  .benefits .bottom .card .bottom {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .benefits .bottom .card .bottom svg {
+    width: 34px;
+    height: 34px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  main .our-courses .container {
+    width: calc(100% - 324px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+  }
+  main .our-courses .top {
+    column-gap: 300px;
+  }
+  main .our-courses .top h2 {
+    font-size: 48px;
+  }
+  main .our-courses .top p {
+    font-size: 18px;
+  }
+  main .our-courses .top a {
+    font-size: 18px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .our-courses .bottom .row {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .our-courses .bottom .card {
+    padding: 50px;
+    border-radius: 12px;
+    width: calc((100% - 30px) / 2);
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: space-between;
+    background: var(--Absolute-White, #fff);
+  }
+  .our-courses .bottom .card .top {
+    row-gap: 30px;
+  }
+  .our-courses .bottom .card .top img {
+    height: 380px;
+  }
+  .our-courses .bottom .card .top .course-info .start {
+    font-size: 18px;
+  }
+  .our-courses .bottom .card .top .course-info .start span {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+  }
+  .our-courses .bottom .card .top .course-info .end {
+    font-size: 20px;
+  }
+  .our-courses .bottom .card .top .course-description h3 {
+    font-size: 24px;
+  }
+  .our-courses .bottom .card .top .course-description p {
+    font-size: 18px;
+  }
+  .our-courses .bottom .card .bottom {
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+    border-radius: 8px;
+  }
+  .our-courses .bottom .card .bottom a {
+    font-size: 18px;
+    padding: 18px 24px;
+  }
+  main .our-testimonials .container {
+    width: calc(100% - 324px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+  }
+  main .our-testimonials .top {
+    display: flex;
+    gap: 300px;
+  }
+  main .our-testimonials .top h2 {
+    font-size: 48px;
+  }
+  main .our-testimonials .top p {
+    font-size: 18px;
+  }
+  main .our-testimonials .top .end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  main .our-testimonials .top a {
+    font-size: 18px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  .our-testimonials .bottom .row {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .our-testimonials .bottom .card {
+    width: calc((100% - 30px) / 2);
+  }
+  .our-testimonials .card .top p {
+    font-size: 18px;
+    padding: 50px;
+  }
+  .our-testimonials .card .bottom {
+    padding: 30px 50px;
+  }
+  .our-testimonials .card .bottom .start {
+    display: flex;
+    gap: 15px;
+    flex-grow: 1;
+  }
+  .our-testimonials .card .bottom .start img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+  }
+  .our-testimonials .card .bottom .start span {
+    font-size: 18px;
+  }
+  .our-testimonials .card .bottom .end a {
+    font-size: 18px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+  }
+  main .our-pricing .container {
+    width: calc(100% - 324px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+  }
+  main .our-pricing .top .row {
+    display: flex;
+    gap: 300px;
+  }
+  main .our-pricing .top h2 {
+    font-size: 48px;
+  }
+  main .our-pricing .top p {
+    font-size: 18px;
+  }
+  main .our-pricing .top .end .text {
+    background: var(--Absolute-White, #fff);
+    display: inline-flex;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  main .our-pricing .top .end .start {
+    padding: 14px 30px;
+    border-radius: 6px;
+  }
+  main .our-pricing .top .end .end {
+    padding: 14px 30px;
+    border-radius: 100px;
+  }
+  main .our-pricing .top .end .start a {
+    font-size: 18px;
+  }
+  main .our-pricing .top .end .end a {
+    font-size: 18px;
+  }
+  .our-pricing .bottom {
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    padding: 80px;
+  }
+  .our-pricing .bottom .row {
+    gap: 30px;
+  }
+  .our-pricing .bottom .row .card {
+    padding: 50px 30px 30px 30px;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  .our-pricing .bottom .row .card .top {
+    row-gap: 50px;
+  }
+  .our-pricing .bottom .row .card .top h3 {
+    font-size: 22px;
+    padding: 12px 22px;
+    border-radius: 6px;
+    border: 1px solid var(--Orange-90, #ffeacc);
+    background: var(--Orange-97, #fff9f0);
+  }
+  .our-pricing .bottom .row .card .top .price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .our-pricing .bottom .row .card .top .price span:first-of-type {
+    font-size: 80px;
+  }
+  .our-pricing .bottom .row .card .top .price span:last-of-type {
+    font-size: 20px;
+  }
+  .our-pricing .bottom .row .card .top .available-features {
+    padding: 40px;
+    gap: 30px;
+    border-radius: 14px 14px 0px 0px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+  }
+  .our-pricing .bottom .row .card .top .available-features h4 {
+    font-size: 20px;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom {
+    gap: 20px;
+    padding: 0px 30px;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom .feature {
+    padding: 14px;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .our-pricing
+    .bottom
+    .row
+    .card
+    .top
+    .available-features
+    .bottom
+    .feature
+    svg {
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    border-radius: 6px;
+    background: var(--Orange-95, #fff4e5);
+  }
+  .our-pricing
+    .bottom
+    .row
+    .card
+    .top
+    .available-features
+    .bottom
+    .feature
+    span {
+    font-size: 18px;
+  }
+  .our-pricing .bottom .row .card .footer {
+    border-radius: 0px 0px 8px 8px;
+    background: var(--Orange-50, #ff9500);
+    padding: 20px 24px;
+  }
+  .our-pricing .bottom .row .card .footer a {
+    font-size: 18px;
+  }
+  footer {
+    background: var(--Absolute-White, #fff);
+    padding: 100px 162px 30px 162px;
+  }
+  footer .container {
+    width: calc(100% - 324px);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  footer .top .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .top .row .start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  footer .top .row .start .top svg {
+    background: var(--Orange-50, #ff9500);
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 8px;
+  }
+  footer .top .row .start .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .top .row .start .bottom .info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+  }
+  footer .top .row .start .bottom .info svg {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .top .row .start .bottom .info span {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    text-align: left;
+    font-size: 18px;
+  }
+  footer .top .row .end {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  footer .top .row .end nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  footer .top .row .end nav ul a {
+    color: var(--Grey-35, #59595a);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    font-size: 18px;
+  }
+  footer .top .row .end .social-profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  footer .top .row .end .social-profiles span {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    font-size: 20px;
+  }
+  footer .top .row .end .social-profiles .bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  footer .top .row .end .social-profiles .bottom svg {
+    width: 24px;
+    height: 24px;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .line {
+    background: #f1f1f3;
+    height: 1px;
+  }
+  footer .bottom {
+    display: flex;
+    justify-content: center;
+  }
+  footer .bottom span {
+    color: var(--Grey-40, #656567);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+}
+/*===========================================================================================*/
+/* Laptop */
+@media screen and (min-width: 1100px) and (max-width: 1440px) {
+  /* Header */
+  header {
+    padding: 16px 60px 20px 60px;
+    margin: 0px 20px;
+  }
+  header .start .logo {
+    border-radius: 8px;
+    background: var(--Orange-50, #ff9500);
+  }
+  header .start .logo svg {
+    width: 32.593px;
+    height: 32.593px;
+  }
+  .selected {
+    padding: 12px 20px;
+  }
+  header a {
+    font-size: 14px;
+  }
+  header .end a:last-of-type {
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 6px;
+  }
+  main{
+    row-gap: 50px;
+  }
+  main .hero {
+    width: 941px;
+    position: relative;
+  }
+  .hero .column {
+    row-gap: 50px;
+    justify-content: center;
+  }
+  .hero .column .top {
+    row-gap: 16px;
+  }
+  .hero .top .row {
+    padding: 12px 24px 12px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    position: relative;
+    column-gap: 10px;
+  }
+  .hero .top .bolt-icon {
+    padding: 12px;
+    border-radius: 6px;
+  }
+  .hero .top .bolt-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .hero .top h2 {
+    font-size: 36px;
+  }
+  .hero .indicator {
+    position: absolute;
+    left: -24px;
+    top: -30px;
+  }
+  .hero .top h3 {
+    font-size: 28px;
+  }
+  .hero .top p {
+    font-size: 16px;
+  }
+  .hero .bottom .row {
+    column-gap: 12px;
+  }
+  .hero .bottom a:first-of-type {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+  }
+  .hero .bottom a:last-of-type {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .companies .container {
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+    margin: auto;
+    width: calc(100% - 162px);
+  }
+  main .container .row {
+    justify-content: space-between;
+  }
+  main .companies svg {
+    padding: 20px 30px;
+    height: 28px;
+  }
+  main .companies svg:nth-child(1) {
+    width: 56px;
+  }
+  main .companies svg:nth-child(2) {
+    width: 81.667px;
+  }
+  main .companies svg:nth-child(3) {
+    width: 57.167px;
+  }
+  main .companies svg:nth-child(4) {
+    width: 64.167px;
+  }
+  main .companies svg:nth-child(5) {
+    width: 77.583px;
+  }
+  main .companies svg:nth-child(6) {
+    width: 75.25px;
+  }
+  main .companies svg:nth-child(7) {
+    width: 64.75px;
+  }
+  main .video .container {
+    width: calc(100% - 162px);
+  }
+  .video .container img {
+    border-radius: 10px;
+  }
+  .video .container .video-button {
+    position: absolute;
+    top: 50%; /* Position the SVG in the center vertically */
+    left: 50%; /* Position the SVG in the center horizontally */
+    transform: translate(-50%, -50%);
+  }
+  .video .container svg {
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    border-radius: 68px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+  }
+  main .benefits .container {
+    width: calc(100% - 162px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  main .benefits .top {
+    gap: 250px;
+  }
+  main .benefits .top h2 {
+    font-size: 38px;
+  }
+  main .benefits .top p {
+    font-size: 16px;
+  }
+  main .benefits .top a {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .benefits .bottom .row {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .benefits .bottom .card {
+    padding: 40px;
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    row-gap: 40px;
+    width: calc((100% - 60px) / 3);
+  }
+  .benefits .bottom .card .top {
+    row-gap: 40px;
+  }
+  .benefits .bottom .heading-number {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .benefits .bottom .heading-number span {
+    font-size: 60px;
+  }
+  .benefits .bottom .card-description h3 {
+    font-size: 20px;
+  }
+  .benefits .bottom .card-description p {
+    font-size: 16px;
+  }
+  .benefits .bottom .card .bottom {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .benefits .bottom .card .bottom svg {
+    width: 26px;
+    height: 26px;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  main .our-courses .container {
+    width: calc(100% - 162px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  main .our-courses .top {
+    column-gap: 250px;
+  }
+  main .our-courses .top h2 {
+    font-size: 38px;
+  }
+  main .our-courses .top p {
+    font-size: 16px;
+  }
+  main .our-courses .top a {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .our-courses .bottom .row {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .our-courses .bottom .card {
+    padding: 40px;
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    width: calc((100% - 20px) / 2);
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: space-between;
+  }
+  .our-courses .bottom .card .top {
+    row-gap: 24px;
+  }
+  .our-courses .bottom .card .top img {
+    height: 266px;
+  }
+  .our-courses .bottom .card .top .course-info .start {
+    font-size: 14px;
+  }
+  .our-courses .bottom .card .top .course-info .start span {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+  }
+  .our-courses .bottom .card .top .course-info .end {
+    font-size: 16px;
+  }
+  .our-courses .bottom .card .top .course-description h3 {
+    font-size: 20px;
+  }
+  .our-courses .bottom .card .top .course-description p {
+    font-size: 16px;
+  }
+  .our-courses .bottom .card .bottom {
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+    border-radius: 6px;
+  }
+  .our-courses .bottom .card .bottom a {
+    font-size: 14px;
+    padding: 14px 24px;
+  }
+  main .our-testimonials .container {
+    width: calc(100% - 162px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  main .our-testimonials .top {
+    display: flex;
+    gap: 250px;
+  }
+  main .our-testimonials .top h2 {
+    font-size: 38px;
+  }
+  main .our-testimonials .top p {
+    font-size: 16px;
+  }
+  main .our-testimonials .top .end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  main .our-testimonials .top a {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  .our-testimonials .bottom .row {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .our-testimonials .bottom .card {
+    width: calc((100% - 20px) / 2);
+  }
+  .our-testimonials .card .top p {
+    font-size: 16px;
+    padding: 40px;
+  }
+  .our-testimonials .card .bottom {
+    padding: 24px 40px;
+  }
+  .our-testimonials .card .bottom .start {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+  }
+  .our-testimonials .card .bottom .start img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+  }
+  .our-testimonials .card .bottom .start span {
+    font-size: 16px;
+  }
+  .our-testimonials .card .bottom .end a {
+    font-size: 14px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+  }
+  main .our-pricing .container {
+    width: calc(100% - 162px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  main .our-pricing .top .row {
+    display: flex;
+    gap: 250px;
+  }
+  main .our-pricing .top h2 {
+    font-size: 38px;
+  }
+  main .our-pricing .top p {
+    font-size: 16px;
+  }
+  main .our-pricing .top .end .text {
+    background: var(--Absolute-White, #fff);
+    display: inline-flex;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  main .our-pricing .top .end .start {
+    padding: 12px 24px;
+    border-radius: 6px;
+  }
+  main .our-pricing .top .end .end {
+    padding: 12px 24px;
+    border-radius: 100px;
+  }
+  main .our-pricing .top .end .start a {
+    font-size: 14px;
+  }
+  main .our-pricing .top .end .end a {
+    font-size: 14px;
+  }
+  .our-pricing .bottom {
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    padding: 50px;
+  }
+  .our-pricing .bottom .row {
+    gap: 30px;
+  }
+  .our-pricing .bottom .row .card {
+    padding: 40px 24px 24px 24px;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  .our-pricing .bottom .row .card .top {
+    row-gap: 50px;
+  }
+  .our-pricing .bottom .row .card .top h3 {
+    font-size: 18px;
+    padding: 12px 22px;
+    border-radius: 4px;
+    border: 1px solid var(--Orange-90, #ffeacc);
+    background: var(--Orange-97, #fff9f0);
+  }
+  .our-pricing .bottom .row .card .top .price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .our-pricing .bottom .row .card .top .price span:first-of-type {
+    font-size: 60px;
+  }
+  .our-pricing .bottom .row .card .top .price span:last-of-type {
+    font-size: 16px;
+  }
+  .our-pricing .bottom .row .card .top .available-features {
+    padding: 30px;
+    gap: 24px;
+    border-radius: 14px 14px 0px 0px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+  }
+  .our-pricing .bottom .row .card .top .available-features h4 {
+    font-size: 18px;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom {
+    gap: 20px;
+    padding: 0px 30px;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom .feature {
+    padding: 14px;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .our-pricing
+    .bottom
+    .row
+    .card
+    .top
+    .available-features
+    .bottom
+    .feature
+    svg {
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    border-radius: 6px;
+    background: var(--Orange-95, #fff4e5);
+  }
+  .our-pricing
+    .bottom
+    .row
+    .card
+    .top
+    .available-features
+    .bottom
+    .feature
+    span {
+    font-size: 14px;
+  }
+  .our-pricing .bottom .row .card .footer {
+    border-radius: 0px 0px 8px 8px;
+    background: var(--Orange-50, #ff9500);
+    padding: 18px 24px;
+  }
+  .our-pricing .bottom .row .card .footer a {
+    font-size: 14px;
+  }
+  footer {
+    background: var(--Absolute-White, #fff);
+    padding: 60px 80px 20px 80px;
+  }
+  footer .container {
+    width: calc(100% - 162px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer .top .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .top .row .start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  footer .top .row .start .top svg {
+    background: var(--Orange-50, #ff9500);
+    width: 32.593px;
+    height: 32.593px;
+    padding: 5.704px;
+    border-radius: 6px;
+  }
+  footer .top .row .start .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  footer .top .row .start .bottom .info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+  }
+  footer .top .row .start .bottom .info svg {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .top .row .start .bottom .info span {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    text-align: left;
+    font-size: 16px;
+  }
+  footer .top .row .end {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .selected-bold {
+    font-size: 18px !important;
+  }
+  footer .top .row .end nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  footer .top .row .end nav ul a {
+    color: var(--Grey-35, #59595a);
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  footer .top .row .end .social-profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  footer .top .row .end .social-profiles span {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    font-size: 18px;
+  }
+  footer .top .row .end .social-profiles .bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  footer .top .row .end .social-profiles .bottom svg {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .line {
+    background: #f1f1f3;
+    height: 1px;
+  }
+  footer .bottom {
+    display: flex;
+    justify-content: center;
+  }
+  footer .bottom span {
+    color: var(--Grey-40, #656567);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+}
+/*===========================================================================================*/
+/* Extention of laptop */
+@media screen and (min-width: 970px) and (max-width: 1100px) {
+  /* Header */
+  header {
+    width: calc(100% - 32px);
+    padding: 14px 0px;
+    margin: auto;
+  }
+  header .start .logo {
+    border-radius: 8px;
+    background: var(--Orange-50, #ff9500);
+  }
+  header .start .logo svg {
+    width: 32.593px;
+    height: 32.593px;
+  }
+  .selected {
+    padding: 12px 20px;
+  }
+  header a {
+    font-size: 14px;
+  }
+  header .end a:last-of-type {
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 6px;
+  }
+  main{
+    row-gap: 50px;
+  }
+  main .hero {
+    width: 900px;
+    position: relative;
+  }
+  .hero .column {
+    row-gap: 50px;
+    justify-content: center;
+  }
+  .hero .column .top {
+    row-gap: 16px;
+  }
+  .hero .top .row {
+    padding: 12px 24px 12px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    position: relative;
+    column-gap: 10px;
+  }
+  .hero .top .bolt-icon {
+    padding: 12px;
+    border-radius: 6px;
+  }
+  .hero .top .bolt-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .hero .top h2 {
+    font-size: 30px;
+  }
+  .hero .indicator {
+    position: absolute;
+    left: -24px;
+    top: -30px;
+  }
+  .hero .top h3 {
+    font-size: 20px;
+  }
+  .hero .top p {
+    font-size: 16px;
+  }
+  .hero .bottom .row {
+    column-gap: 12px;
+  }
+  .hero .bottom a:first-of-type {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+  }
+  .hero .bottom a:last-of-type {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .companies .container {
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+    margin: auto;
+    width: calc(100% - 32px);
+  }
+  main .container .row {
+    justify-content: space-between;
+  }
+  main .companies svg {
+    padding: 20px 30px;
+    height: 28px;
+  }
+  main .companies svg:nth-child(1) {
+    width: 56px;
+  }
+  main .companies svg:nth-child(2) {
+    width: 81.667px;
+  }
+  main .companies svg:nth-child(3) {
+    width: 57.167px;
+  }
+  main .companies svg:nth-child(4) {
+    width: 64.167px;
+  }
+  main .companies svg:nth-child(5) {
+    width: 77.583px;
+  }
+  main .companies svg:nth-child(6) {
+    width: 75.25px;
+  }
+  main .companies svg:nth-child(7) {
+    width: 64.75px;
+  }
+  main .video .container {
+    width: calc(100% - 32px);
+  }
+  .video .container img {
+    border-radius: 10px;
+  }
+  .video .container .video-button {
+    position: absolute;
+    top: 50%; /* Position the SVG in the center vertically */
+    left: 50%; /* Position the SVG in the center horizontally */
+    transform: translate(-50%, -50%);
+  }
+  .video .container svg {
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    border-radius: 68px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+  }
+  main .benefits .container {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  main .benefits .top {
+    gap: 250px;
+  }
+  main .benefits .top h2 {
+    font-size: 38px;
+  }
+  main .benefits .top p {
+    font-size: 16px;
+  }
+  main .benefits .top a {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .benefits .bottom .row {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .benefits .bottom .card {
+    padding: 40px;
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    row-gap: 40px;
+    width: calc((100% - 60px) / 3);
+  }
+  .benefits .bottom .card .top {
+    row-gap: 40px;
+  }
+  .benefits .bottom .heading-number {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .benefits .bottom .heading-number span {
+    font-size: 60px;
+  }
+  .benefits .bottom .card-description h3 {
+    font-size: 20px;
+  }
+  .benefits .bottom .card-description p {
+    font-size: 16px;
+  }
+  .benefits .bottom .card .bottom {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .benefits .bottom .card .bottom svg {
+    width: 26px;
+    height: 26px;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  main .our-courses .container {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  main .our-courses .top {
+    column-gap: 250px;
+  }
+  main .our-courses .top h2 {
+    font-size: 38px;
+  }
+  main .our-courses .top p {
+    font-size: 16px;
+  }
+  main .our-courses .top a {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .our-courses .bottom .row {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .our-courses .bottom .card {
+    padding: 40px;
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    width: calc((100% - 20px) / 2);
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: space-between;
+  }
+  .our-courses .bottom .card .top {
+    row-gap: 24px;
+  }
+  .our-courses .bottom .card .top img {
+    height: 266px;
+  }
+  .our-courses .bottom .card .top .course-info .start {
+    font-size: 14px;
+  }
+  .our-courses .bottom .card .top .course-info .start span {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+  }
+  .our-courses .bottom .card .top .course-info .end {
+    font-size: 16px;
+  }
+  .our-courses .bottom .card .top .course-description h3 {
+    font-size: 20px;
+  }
+  .our-courses .bottom .card .top .course-description p {
+    font-size: 16px;
+  }
+  .our-courses .bottom .card .bottom {
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+    border-radius: 6px;
+  }
+  .our-courses .bottom .card .bottom a {
+    font-size: 14px;
+    padding: 14px 24px;
+  }
+  main .our-testimonials .container {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  main .our-testimonials .top {
+    display: flex;
+    gap: 250px;
+  }
+  main .our-testimonials .top h2 {
+    font-size: 38px;
+  }
+  main .our-testimonials .top p {
+    font-size: 16px;
+  }
+  main .our-testimonials .top .end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  main .our-testimonials .top a {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  .our-testimonials .bottom .row {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .our-testimonials .bottom .card {
+    width: calc((100% - 20px) / 2);
+  }
+  .our-testimonials .card .top p {
+    font-size: 16px;
+    padding: 40px;
+  }
+  .our-testimonials .card .bottom {
+    padding: 24px 40px;
+  }
+  .our-testimonials .card .bottom .start {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+  }
+  .our-testimonials .card .bottom .start img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+  }
+  .our-testimonials .card .bottom .start span {
+    font-size: 16px;
+  }
+  .our-testimonials .card .bottom .end a {
+    font-size: 14px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+  }
+  main .our-pricing .container {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  main .our-pricing .top .row {
+    display: flex;
+    gap: 250px;
+  }
+  main .our-pricing .top h2 {
+    font-size: 38px;
+  }
+  main .our-pricing .top p {
+    font-size: 16px;
+  }
+  main .our-pricing .top .end .text {
+    background: var(--Absolute-White, #fff);
+    display: inline-flex;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  main .our-pricing .top .end .start {
+    padding: 12px 24px;
+    border-radius: 6px;
+  }
+  main .our-pricing .top .end .end {
+    padding: 12px 24px;
+    border-radius: 100px;
+  }
+  main .our-pricing .top .end .start a {
+    font-size: 14px;
+  }
+  main .our-pricing .top .end .end a {
+    font-size: 14px;
+  }
+  .our-pricing .bottom {
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    padding: 50px;
+  }
+  .our-pricing .bottom .row {
+    gap: 30px;
+  }
+  .our-pricing .bottom .row .card {
+    padding: 40px 24px 24px 24px;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  .our-pricing .bottom .row .card .top {
+    row-gap: 50px;
+  }
+  .our-pricing .bottom .row .card .top h3 {
+    font-size: 18px;
+    padding: 12px 22px;
+    border-radius: 4px;
+    border: 1px solid var(--Orange-90, #ffeacc);
+    background: var(--Orange-97, #fff9f0);
+  }
+  .our-pricing .bottom .row .card .top .price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .our-pricing .bottom .row .card .top .price span:first-of-type {
+    font-size: 60px;
+  }
+  .our-pricing .bottom .row .card .top .price span:last-of-type {
+    font-size: 16px;
+  }
+  .our-pricing .bottom .row .card .top .available-features {
+    padding: 30px;
+    gap: 24px;
+    border-radius: 14px 14px 0px 0px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+  }
+  .our-pricing .bottom .row .card .top .available-features h4 {
+    font-size: 18px;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom {
+    gap: 20px;
+    padding: 0px 30px;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom .feature {
+    padding: 14px;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .our-pricing
+    .bottom
+    .row
+    .card
+    .top
+    .available-features
+    .bottom
+    .feature
+    svg {
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    border-radius: 6px;
+    background: var(--Orange-95, #fff4e5);
+  }
+  .our-pricing
+    .bottom
+    .row
+    .card
+    .top
+    .available-features
+    .bottom
+    .feature
+    span {
+    font-size: 14px;
+  }
+  .our-pricing .bottom .row .card .footer {
+    border-radius: 0px 0px 8px 8px;
+    background: var(--Orange-50, #ff9500);
+    padding: 18px 24px;
+  }
+  .our-pricing .bottom .row .card .footer a {
+    font-size: 14px;
+  }
+  footer {
+    background: var(--Absolute-White, #fff);
+    padding: 60px 80px 20px 80px;
+  }
+  footer .container {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer .top .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .top .row .start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  footer .top .row .start .top svg {
+    background: var(--Orange-50, #ff9500);
+    width: 32.593px;
+    height: 32.593px;
+    padding: 5.704px;
+    border-radius: 6px;
+  }
+  footer .top .row .start .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  footer .top .row .start .bottom .info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+  }
+  footer .top .row .start .bottom .info svg {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .top .row .start .bottom .info span {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    text-align: left;
+    font-size: 16px;
+  }
+  footer .top .row .end {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .selected-bold {
+    font-size: 18px !important;
+  }
+  footer .top .row .end nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  footer .top .row .end nav ul a {
+    color: var(--Grey-35, #59595a);
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  footer .top .row .end .social-profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  footer .top .row .end .social-profiles span {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    font-size: 18px;
+  }
+  footer .top .row .end .social-profiles .bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  footer .top .row .end .social-profiles .bottom svg {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .line {
+    background: #f1f1f3;
+    height: 1px;
+  }
+  footer .bottom {
+    display: flex;
+    justify-content: center;
+  }
+  footer .bottom span {
+    color: var(--Grey-40, #656567);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+}
+/*===========================================================================================*/
+/* Phone */
+@media screen and (max-width: 969px) {
+  header {
+    width: calc(100% - 32px);
+    padding: 54px 0px 14px 0px;
+    margin: auto;
+  }
+  header .start .logo {
+    border-radius: 6px;
+    background: var(--Orange-50, #ff9500);
+  }
+  header .start .logo svg {
+    width: 29.63px;
+    height: 29.63px;
+  }
+  nav {
+    display: none;
+  }
+  header .end {
+    column-gap: 20px;
+  }
+  header .end a {
+    font-size: 14px;
+  }
+  header .end a:last-of-type {
+    padding: 12px 20px;
+    border-radius: 6px;
+  }
+  header .end svg {
+    display: block;
+  }
+  main{
+    row-gap: 30px;
+  }
+  main .hero {
+    width: calc(100% - 32px);
+    position: relative;
+  }
+  .hero .column {
+    row-gap: 50px;
+    justify-content: center;
+  }
+  .hero .column .top {
+    row-gap: 16px;
+  }
+  .hero .top .center {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .hero .top .row {
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    position: relative;
+    column-gap: 10px;
+    width: 100%;
+  }
+  .hero .top .bolt-icon {
+    padding: 12px;
+    border-radius: 6px;
+  }
+  .hero .top .bolt-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .hero .top h2 {
+    font-size: 16px;
+  }
+  .hero .indicator {
+    position: absolute;
+    left: -10px;
+    top: -20px;
+  }
+  .hero .top h3 {
+    font-size: 24px;
+  }
+  .hero .top p {
+    font-size: 14px;
+  }
+  .hero .bottom .row {
+    column-gap: 12px;
+  }
+  .hero .bottom a:first-of-type {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+  }
+  .hero .bottom a:last-of-type {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .companies .container {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+    margin: auto;
+    width: calc(100% - 32px);
+  }
+  main .container .row {
+    justify-content: space-between;
+  }
+  main .companies svg {
+    padding: 20px 30px;
+    height: 24px;
+  }
+  main .companies svg:nth-child(1) {
+    width: 48px;
+  }
+  main .companies svg:nth-child(2) {
+    width: 70px;
+  }
+  main .companies svg:nth-child(3) {
+    width: 49px;
+  }
+  main .companies svg:nth-child(4) {
+    width: 64.167px;
+    display: none;
+  }
+  main .companies svg:nth-child(5) {
+    width: 77.583px;
+    display: none;
+  }
+  main .companies svg:nth-child(6) {
+    width: 75.25px;
+    display: none;
+  }
+  main .companies svg:nth-child(7) {
+    width: 64.75px;
+    display: none;
+  }
+  main .video .container {
+    width: calc(100% - 32px);
+  }
+  .video .container img {
+    border-radius: 10px;
+  }
+  .video .container .video-button {
+    position: absolute;
+    top: 50%; /* Position the SVG in the center vertically */
+    left: 50%; /* Position the SVG in the center horizontally */
+    transform: translate(-50%, -50%);
+  }
+  .video .container svg {
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    border-radius: 68px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+  }
+  main .benefits .container {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  main .benefits .top {
+    flex-direction: column;
+    gap: 20px;
+  }
+  main .benefits .top h2 {
+    font-size: 28px;
+  }
+  main .benefits .top p {
+    font-size: 14px;
+  }
+  main .benefits .top .end {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+  main .benefits .top a {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    width: fit-content;
+  }
+  .benefits .bottom .row {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .benefits .bottom .card {
+    padding: 40px;
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    row-gap: 30px;
+  }
+  .benefits .bottom .card:nth-child(5) {
+    display: none;
+  }
+  .benefits .bottom .card:nth-child(6) {
+    display: none;
+  }
+  .benefits .bottom .card .top {
+    row-gap: 30px;
+  }
+  .benefits .bottom .heading-number {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .benefits .bottom .heading-number span {
+    font-size: 50px;
+  }
+  .benefits .bottom .card-description h3 {
+    font-size: 20px;
+  }
+  .benefits .bottom .card-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .benefits .bottom .card-description p {
+    font-size: 14px;
+  }
+  .benefits .bottom .card .bottom {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .benefits .bottom .card .bottom svg {
+    width: 26px;
+    height: 26px;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  main .our-courses .container {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  main .our-courses .top {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  main .our-courses .top h2 {
+    font-size: 28px;
+  }
+  main .our-courses .top p {
+    font-size: 14px;
+  }
+  main .our-courses .top .end {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+  main .our-courses .top a {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    width: fit-content;
+  }
+  .our-courses .bottom .row {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .our-courses .bottom .card {
+    padding: 24px;
+    border-radius: 10px;
+    background: var(--Absolute-White, #fff);
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: space-between;
+  }
+  .our-courses .bottom .card .top {
+    row-gap: 24px;
+  }
+  .our-courses .bottom .card .top .course-img {
+    display: flex;
+    justify-content: center;
+  }
+  .our-courses .bottom .card .top img {
+    height: 172px;
+    object-fit: cover;
+  }
+  .our-courses .bottom .card .top .course-info {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  .our-courses .bottom .card .top .course-info .start {
+    font-size: 14px;
+  }
+  .our-courses .bottom .card .top .course-info .start span {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+  }
+  .our-courses .bottom .card .top .course-info .end {
+    font-size: 16px;
+  }
+  .our-courses .bottom .card .top .course-description h3 {
+    font-size: 18px;
+  }
+  .our-courses .bottom .card .top .course-description p {
+    font-size: 14px;
+  }
+  .our-courses .bottom .card .bottom {
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+    border-radius: 6px;
+  }
+  .our-courses .bottom .card .bottom a {
+    font-size: 14px;
+    padding: 14px 24px;
+  }
+  main .our-testimonials .container {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  main .our-testimonials .top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  main .our-testimonials .top h2 {
+    font-size: 28px;
+  }
+  main .our-testimonials .top p {
+    font-size: 14px;
+  }
+  main .our-testimonials .top .end {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+  main .our-testimonials .top a {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  .our-testimonials .bottom .row {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .our-testimonials .card .top p {
+    font-size: 14px;
+    padding: 30px;
+  }
+  .our-testimonials .card .bottom {
+    padding: 20px 30px;
+  }
+  .our-testimonials .card .bottom .start {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+  }
+  .our-testimonials .card .bottom .start img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+  }
+  .our-testimonials .card .bottom .start span {
+    font-size: 16px;
+  }
+  .our-testimonials .card .bottom .end a {
+    font-size: 14px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+  }
+  main .our-pricing .container {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  main .our-pricing .top .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  main .our-pricing .top h2 {
+    font-size: 28px;
+  }
+  main .our-pricing .top p {
+    font-size: 14px;
+  }
+  main .our-pricing .top .end .text {
+    background: var(--Absolute-White, #fff);
+    display: inline-flex;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  main .our-pricing .top .end .start {
+    padding: 12px 24px;
+    border-radius: 6px;
+  }
+  main .our-pricing .top .end .end {
+    padding: 12px 24px;
+    border-radius: 100px;
+  }
+  main .our-pricing .top .end .start a {
+    font-size: 14px;
+  }
+  main .our-pricing .top .end .end a {
+    font-size: 14px;
+  }
+  .our-pricing .bottom {
+    border-radius: 12px;
+    background: var(--Absolute-White, #fff);
+    padding: 20px;
+  }
+  .our-pricing .bottom .row {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .our-pricing .bottom .row .card {
+    padding: 30px 20px 20px 20px;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-99, #fcfcfd);
+  }
+  .our-pricing .bottom .row .card .top {
+    gap: 30px;
+  }
+  .our-pricing .bottom .row .card .top h3 {
+    font-size: 16px;
+    padding: 12px 22px;
+    border-radius: 4px;
+    border: 1px solid var(--Orange-90, #ffeacc);
+    background: var(--Orange-97, #fff9f0);
+  }
+  .our-pricing .bottom .row .card .top .price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .our-pricing .bottom .row .card .top .price span:first-of-type {
+    font-size: 50px;
+  }
+  .our-pricing .bottom .row .card .top .price span:last-of-type {
+    font-size: 14px;
+  }
+  .our-pricing .bottom .row .card .top .available-features {
+    padding: 20px;
+    gap: 20px;
+    border-radius: 14px 14px 0px 0px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--Absolute-White, #fff);
+  }
+  .our-pricing .bottom .row .card .top .available-features h4 {
+    font-size: 18px;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom {
+    gap: 20px;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom .feature {
+    padding: 12px;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+  }
+  .our-pricing
+    .bottom
+    .row
+    .card
+    .top
+    .available-features
+    .bottom
+    .feature
+    svg {
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    border-radius: 4px;
+    background: var(--Orange-95, #fff4e5);
+  }
+  .our-pricing
+    .bottom
+    .row
+    .card
+    .top
+    .available-features
+    .bottom
+    .feature
+    span {
+    font-size: 14px;
+  }
+  .our-pricing .bottom .row .card .footer {
+    border-radius: 0px 0px 8px 8px;
+    background: var(--Orange-50, #ff9500);
+    padding: 18px 24px;
+  }
+  .our-pricing .bottom .row .card .footer a {
+    font-size: 14px;
+  }
+  footer {
+    background: var(--Absolute-White, #fff);
+    padding: 50px 20px 24px 20px;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .top .row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  footer .top .row .start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  footer .top .row .start .top svg {
+    background: var(--Orange-50, #ff9500);
+    width: 32.593px;
+    height: 32.593px;
+    padding: 5.704px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .top .row .start .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  footer .top .row .start .bottom .info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+  }
+  footer .top .row .start .bottom .info svg {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .top .row .start .bottom .info span {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    text-align: left;
+    font-size: 15px;
+  }
+  footer .top .row .end {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .selected-bold {
+    font-size: 18px !important;
+  }
+  footer .top .row .end nav {
+    display: inline-flex;
+  }
+  footer .top .row .end nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  footer .top .row .end nav ul a {
+    color: var(--Grey-35, #59595a);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  footer .top .row .end .social-profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer .top .row .end .social-profiles span {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    font-size: 18px;
+  }
+  footer .top .row .end .social-profiles .bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  footer .top .row .end .social-profiles .bottom svg {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    background: var(--White-97, #f7f7f8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .line {
+    background: #f1f1f3;
+    height: 1px;
+  }
+  footer .bottom {
+    display: flex;
+    justify-content: center;
+  }
+  footer .bottom span {
+    color: var(--Grey-40, #656567);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+}
+/*===========================================================================================*/
+@media screen and (min-width: 400px) and (max-width: 969px) {
+  main .hero .top .center {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  main .hero .top .row {
+    width: fit-content !important;
+    justify-content: flex-start !important;
+  }
+  .our-courses .bottom .card .top img {
+    height: 100%;
+    width: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .our-pricing .bottom .row .card .top .price span {
+    width: fit-content;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom .feature {
+    padding: 12px;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #f1f1f3);
+    align-items: flex-start;
+  }
+  .our-pricing .bottom .row .card .top .available-features .bottom .feature span {
+    width: calc((100% - 8px) / 2);
+    flex-grow: 1;
+  }
+}
